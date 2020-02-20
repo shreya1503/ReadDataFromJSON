@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B00524923FDF40C00661B14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00524823FDF40C00661B14 /* main.swift */; };
+		9B00525123FDF73E00661B14 /* data.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B00524F23FDF4C500661B14 /* data.txt */; };
+		9B00525323FDFBA400661B14 /* SingleUser.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B00525223FDFA8800661B14 /* SingleUser.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +22,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9B00525023FDF72400661B14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B00525323FDFBA400661B14 /* SingleUser.json in CopyFiles */,
+				9B00525123FDF73E00661B14 /* data.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B00524523FDF40C00661B14 /* ReadDataFromJSON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadDataFromJSON; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B00524823FDF40C00661B14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B00524F23FDF4C500661B14 /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		9B00525223FDFA8800661B14 /* SingleUser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUser.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				9B00524823FDF40C00661B14 /* main.swift */,
+				9B00524F23FDF4C500661B14 /* data.txt */,
+				9B00525223FDFA8800661B14 /* SingleUser.json */,
 			);
 			path = ReadDataFromJSON;
 			sourceTree = "<group>";
@@ -72,6 +89,7 @@
 				9B00524123FDF40C00661B14 /* Sources */,
 				9B00524223FDF40C00661B14 /* Frameworks */,
 				9B00524323FDF40C00661B14 /* CopyFiles */,
+				9B00525023FDF72400661B14 /* CopyFiles */,
 			);
 			buildRules = (
 			);
